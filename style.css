@@ -1,7 +1,18 @@
+
+/* classe que criamos para estilizar cabeçalho  */
+
 header {
     background-color: #f7cf59;
+    /* largura total da tela */
+    width: vw;
+    /* altura  */
+    height: 100px;
+    /* dispor o conteudo flexivelmente  */
+    display: flex;
+    /* alinhar horizontalmente os itens do cabeçalho espaçados entre si  */
+    justify-content:space-between;
 }
-
+/* corpo do site sera branco */
 body{
 background-color: white;
 
@@ -18,7 +29,30 @@ p{
 }
 
 .allny {
-    margin-left: 650px;
-    margin-top: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seila {
+    color: #f7cf59;;
+}
+
+.container {
+width: 1000px;
+height: 450px;
+display: flex;
+justify-content: space-between;
+}
+
+.containerjogo {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.imgjogos {
+    width: 150px;
+    height: 150px;
 }
